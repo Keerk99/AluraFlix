@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://aluraflix-api-three.vercel.app"
+    baseURL: process.env.NEXT_PUBLIC_API_URL //https://64faa299cb9c00518f7a0c72.mockapi.io
 })
 
 export const buscar = async (url, setData) => {
