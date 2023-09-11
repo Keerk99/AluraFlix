@@ -58,3 +58,35 @@ export const DeleteCategory = async (categoryId) => {
         throw error;
     }
 };
+
+export const loadVideosByCategory = async (category) => {
+    try {
+        const response = await api.get(`/videos?category=${category}`);
+        return response.data;
+    } catch (error) {
+        console.error("Error al cargar los datos por categoría: ", error);
+        throw error;
+    }
+}
+
+export const DeleteVideo = async (videoId) => {
+    try {
+        const response = await api.delete(`/videos/${videoId}`);
+        if (response.status === 200 || response.status === 204) {
+            return { success: true, message: "Video borrado exitosamente" };
+        } else {
+            throw new Error("Error para eliminar");
+        }
+    } catch (error) {
+        throw new Error("Error al procesar la solicitud de eliminación");
+    }
+}
+
+export const UpdateVideo = async (updatedVideo) => {
+    try {
+        const response = await api.put(`/videos/${updatedVideo.id}`, updatedVideo);
+        return response.data;
+    } catch (error) {
+        throw error;
+    }
+}

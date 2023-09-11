@@ -5,7 +5,7 @@
       "name": "Front End",
       "description": "Formación Front End de Alura Latam",
       "color": "#6bd1ff",
-      "code": "1234"
+      "code": "123445564"
     },
     {
       "id": "4e36a19d-9617-478f-ad53-bae52743e18f",
@@ -44,7 +44,7 @@
     },
     {
       "id": "7c75fdb6-117b-4874-8b5f-c7284f65dd4b",
-      "name": "Design & UX",
+      "name": "Design UX",
       "description": "Herramientas y técnicas que estudio sobre UX y Design",
       "color": "#761f8e",
       "code": "456123132"
@@ -65,7 +65,7 @@
       "linkImg": "https://i.ytimg.com/vi/PztCEdIJITY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuXRGCpp6yODDhl8oO2DA9QsvjcA",
       "category": "Front End",
       "description": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript.",
-      "code": "123456"
+      "code": "464564546"
     },
     {
       "id": "b25452bd-c2d7-44eb-b3fd-887c964fc9b6",
@@ -123,12 +123,12 @@
     },
     {
       "id": "351c4747-91b1-4591-bb9b-49ab93f1da14",
-      "title": "Simplificando tu código en Java: Conoce los enum",
+      "title": "Simplificando tu código en Java",
       "linkVideo": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
       "linkImg": "https://i.ytimg.com/vi/EoPvlE85XAQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFbjGz8uhDWikgJo3WcW54ye03Wg",
       "category": "Back End",
       "description": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código?\nEn este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum.",
-      "code": "1234569812"
+      "code": "123456749686"
     },
     {
       "id": "1ff7044f-2202-4aff-8d07-13aa78bb1f2d",
@@ -137,7 +137,7 @@
       "linkImg": "https://i.ytimg.com/vi/LLt7FreeHfQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAix8VbZqRBDWNK_YtO7CkhFOgvkg",
       "category": "Back End",
       "description": "¿Qué es backend?  ¿Por qué debería comenzar mi carrera con backend?\n¿Cuáles son las skills necesarias para ser un buen desarrollador backend?\n¿Qué hace un desarrollador backend en su dia a dia laboral?",
-      "code": "954815"
+      "code": "4613464514"
     },
     {
       "id": "099a7d9b-67ad-4010-a27f-bf8f3202351d",

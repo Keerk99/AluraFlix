@@ -8,6 +8,7 @@ import FormAddVideo from './pages/FormAddVideo';
 import FormNewCategory from "./pages/NewCategory";
 import Category from "./pages/Category";
 import Video from "./pages/Video";
+import EditDeleteVideo from "./pages/Edit_DeleteVideo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/nuevoVideo' element={<FormAddVideo />} />
           <Route path='/nuevaCategoria' element={<FormNewCategory />} />
           <Route path='/categoria/:categoryName' element={<Category />} />
+          <Route path='/videoSettings' element={<EditDeleteVideo />} />
           <Route path='/video/:videoId' element={<Video />} />
           <Route path='/categoria/:categoryName/video/:videoId' element={<Video />} />
           <Route path='*' element={<Page404 />} />

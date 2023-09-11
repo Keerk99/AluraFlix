@@ -33,18 +33,29 @@ const FormVideo = styled.form`
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  gap: 1.5rem;
   @media screen and (min-width: 0px) and (max-width: 767px) {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
+  }
+  @media screen and (min-width: 0px) and (max-width: 441px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 `;
 
 const ButtonGroup = styled.div`
   display: flex;
   gap: 2rem;
-  @media screen and (min-width: 0px) and (max-width: 767px) {
+  @media screen and (min-width: 425px) and (max-width: 767px) {
     gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 0px) and (max-width: 441px) {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -196,11 +207,18 @@ function FormAddVideo() {
                   Limpiar
                 </Button>
               </ButtonGroup>
-              <Link to={"/nuevaCategoria"}>
-                <Button type="button" color="#FFFFFF" bgcolor="#2A7AE4">
-                  Nueva Categoría
-                </Button>
-              </Link>
+              <ButtonGroup>
+                <Link to={"/nuevaCategoria"}>
+                  <Button type="button" color="#FFFFFF" bgcolor="#2A7AE4">
+                    Nueva Categoría
+                  </Button>
+                </Link>
+                <Link to={"/videoSettings"}>
+                  <Button type="button" color="#FFFFFF" bgcolor="#2A7AE4">
+                    Editar / Eliminar Video
+                  </Button>
+                </Link>
+              </ButtonGroup>
             </ButtonContainer>
           </FormVideo>
         </DivContainer>

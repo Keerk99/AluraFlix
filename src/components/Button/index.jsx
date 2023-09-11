@@ -13,8 +13,8 @@ const ButtonForm = styled.button`
     transform: scale(1.1);
   }
   @media screen and (min-width: 0px) and (max-width: 424px) {
-    padding: 0.8rem 1rem;
-    font-size: 0.7rem;
+    padding: 0.8rem 0.8rem;
+    font-size: 0.6rem;
   }
 `;
 

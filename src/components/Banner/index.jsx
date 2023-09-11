@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import banner from "../../assets/img/background_main.png";
-import demo from "../../assets/img/img_demo.jpg";
 
 const BannerContainer = styled.div`
   background: url(${banner}) no-repeat center / cover;
@@ -33,6 +32,7 @@ const BannerText = styled.div`
 `;
 
 const BannerTitle = styled.h2`
+  text-align: center;
   font-size: 2.6rem;
   margin-bottom: 0;
   @media screen and (min-width: 0) and (max-width: 1023px) {
@@ -47,23 +47,10 @@ const BannerTitle = styled.h2`
 const BannerP = styled.p`
   font-size: 1.2rem;
   margin-top: 0;
-  @media screen and (min-width: 0) and (max-width: 1023px) {
-    text-align: center;
-  }
+  text-align: center;
   @media screen and (min-width: 0) and (max-width: 424px) {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin: 0;
-  }
-`;
-
-const Img = styled.img`
-  width: 600px;
-  border-radius: 2rem;
-  @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    width: 400px;
-  }
-  @media screen and (min-width: 0) and (max-width: 1023px) {
-    display: none;
   }
 `;
 
@@ -72,14 +59,17 @@ function Banner() {
     <section>
       <BannerContainer>
         <BannerText>
-          <BannerTitle>Challenge React</BannerTitle>
+          <BannerTitle>Aluraflix</BannerTitle>
           <BannerP>
-            Este challenge es una forma de aprendizaje. Es un mecanismo donde
-            podrás comprometerte en la resolución de un problema para poder
-            aplicar todos los conocimientos adquiridos en la formación React.
+            Nuestra página web es tu destino para una amplia variedad de videos
+            relacionados con programación, gestión e innovación, diseño UX,
+            movilidad y más. Te proporcionamos valioso contenido para aprender,
+            inspirarte y mantenerte actualizado en el mundo de la tecnología y
+            la creatividad. Explora nuestra plataforma y únete a una comunidad
+            apasionada por el aprendizaje continuo. ¡Bienvenido a un espacio
+            donde la curiosidad y la innovación se encuentran
           </BannerP>
         </BannerText>
-        <Img src={demo} alt="Banner principal" />
       </BannerContainer>
     </section>
   );

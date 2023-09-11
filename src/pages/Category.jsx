@@ -15,6 +15,7 @@ const SectionContainer = styled.div`
   @media screen and (min-width: 425px) and (max-width: 768px) {
     padding: 2rem;
     justify-content: space-evenly;
+    gap: 1rem;
   }
   @media screen and (min-width: 0) and (max-width: 424px) {
     padding: 2.5rem 0.8rem;
@@ -72,13 +73,17 @@ const LiVideos = styled.li`
   list-style: none;
   display: flex;
   flex-direction: column;
+  gap: .5rem;
 `;
 
 const Img = styled.img`
   width: 100%;
   border-radius: 0.5rem;
-  border: 3px solid #6bd1ff;
   box-sizing: border-box;
+  transition: transform ease-in 0.5s;
+  &&:hover {
+    transform: scale(1.02);
+  }
 `;
 
 const VideoTitle = styled.h2`

@@ -167,7 +167,7 @@ export function SectionCategory() {
               </DivText>
               <SliderContainer>
                 <Slider {...settings}>
-                  {categoryVideos.map((video) => (
+                  {categoryVideos.reverse().map((video) => (
                     <div key={video.id}>
                       <Link to={`/video/${video.id}`}>
                         <SliderImg
