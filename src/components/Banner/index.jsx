@@ -23,6 +23,9 @@ const BannerText = styled.div`
   flex-direction: column;
   color: #ffffff;
   gap: 2.5rem;
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    gap: 1rem;
+  }
   @media screen and (min-width: 0) and (max-width: 424px) {
     gap: 0.5rem;
     background: rgba(83, 88, 93, 0.7);
@@ -48,6 +51,10 @@ const BannerP = styled.p`
   font-size: 1.2rem;
   margin-top: 0;
   text-align: center;
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    font-size: 1rem;
+    margin: 0;
+  }
   @media screen and (min-width: 0) and (max-width: 424px) {
     font-size: 0.6rem;
     margin: 0;
