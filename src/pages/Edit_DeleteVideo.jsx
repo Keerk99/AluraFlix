@@ -125,6 +125,7 @@ export default function EditDeleteVideo() {
   const handleCategoryChange = async (e) => {
     const category = e.target.value;
     setSelectedCategory(category);
+    setIsVideoDeleted(false);
     try {
       const videosData = await loadVideosByCategory(category);
       setData(videosData);
